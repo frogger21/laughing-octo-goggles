@@ -364,13 +364,18 @@ void kosaraju(Vertex *G, long n, string OutFile, string OutFile2)
 
 int main()
 {
+	//change this
+	string fileNom = "D:/SCC10000.txt"; //input file  (input file1)																		  //string fileNom = "D:/coursera/stanford data struc and algos/4/SCC.txt"; //input file
+	string OutNom = "D:/leaders.txt"; //outputs vertex:leader (output file1)
+	string OutNom2 = "D:/opfreq.txt"; //outputs top frequency of leader (output file2)
+	const long n = 10000;// vertices from 1 to n, what's n?
+	
 	//time the entire thing
 	clock_t t3;
 	t3 = clock();
 	float seconds3;
 
 	//create template for the graph
-	const long n = 10000;//875714;//10876;//875714; //9;
 	Vertex *G;
 	G = new Vertex[n + 1]; //just ignore the 0 tiny waste of memory but so sick of the 0 start
 	if (G == nullptr)
@@ -394,9 +399,7 @@ int main()
 	vector<long> temp1; //hold elements of split string to numbers
 	long A, B; //A->B edges
 	string line;
-	string fileNom = "D:/coursera/stanford data struc and algos/4/SCC10000.txt"; //input file n=10																			  //string fileNom = "D:/coursera/stanford data struc and algos/4/SCC.txt"; //input file
-	string OutNom = "D:/coursera/stanford data struc and algos/4/leaders.txt"; //outputs vertex:leader
-	string OutNom2 = "D:/coursera/stanford data struc and algos/4/topfreq.txt"; //outputs top frequency of leader
+
 	
 	ifstream myfile(fileNom);
 	clock_t t2;
