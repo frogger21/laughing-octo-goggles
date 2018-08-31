@@ -11,5 +11,5 @@ Output file2: Array of leader node & its size, sorted in order from biggest to s
 
 Wikipedia on Kosaraju Algo: In the mathematical theory of directed graphs, a graph is said to be strongly connected or diconnected if every vertex is reachable from every other vertex
 
-source: wikipedia. 3 strongly connected components of a directed graph.
-
+source: wikipedia. 3 strongly connected components in a directed graph.
+![alt text](https://github.com/frogger21/laughing-octo-goggles/blob/master/Scc.png)
