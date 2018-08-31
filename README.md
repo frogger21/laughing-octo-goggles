@@ -13,3 +13,5 @@ Wikipedia on Kosaraju Algo: In the mathematical theory of directed graphs, a gra
 
 source: wikipedia. 3 strongly connected components in a directed graph.
 ![alt text](https://github.com/frogger21/laughing-octo-goggles/blob/master/Scc.png)
+
+Due to the size of the input file the algo was modified to be iterative instead of its original recursive nature. I was constantly getting the stack-over-flow error with the recursive method and hence went for the iterative one.
