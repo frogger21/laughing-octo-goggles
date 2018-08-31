@@ -7,3 +7,6 @@ Output file1: vertex & its leader per row for all vertices.
 Output file2: Array of leader node & its size, sorted in order from biggest to smallest
 
 *Change filepaths in the code.
+
+
+Wikipedia on Kosaraju Algo: In the mathematical theory of directed graphs, a graph is said to be strongly connected or diconnected if every vertex is reachable from every other vertex
